@@ -1,0 +1,30 @@
+/* Write your CSS here */
+
+.team-card {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  background-color: #ffffff33;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  height: 100px;
+}
+
+.team-flag-image {
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.team-name-heading {
+  color: white;
+  text-align: center;
+  width: 200px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.remove-underline {
+  text-decoration: none;
+}

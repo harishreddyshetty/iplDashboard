@@ -1,0 +1,55 @@
+/* Write your CSS here */
+
+* {
+  color: white;
+}
+.latest-match-card {
+  background-color: #0f172a;
+  border-radius: 10px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 80%;
+}
+
+.team-image {
+  width: 250px;
+}
+
+.match-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.team-name {
+  margin-bottom: 60px;
+  font-size: 30px;
+  width: 300px;
+}
+.date {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.match-details-heading {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  padding-top: 5px;
+  font-size: 17px;
+}
+
+.match-details-description {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  padding-top: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
