@@ -18,10 +18,10 @@ class Home extends Component {
 
   getTeamsData = async () => {
     const url = 'https://apis.ccbp.in/ipl'
-    const options = {
-      method: 'GET',
-    }
-    const response = await fetch(url, options)
+    // const options = {
+    //   method: 'GET',
+    // }
+    const response = await fetch(url)
     const data = await response.json()
 
     const updatedData = data.teams.map(eachTeam => ({
